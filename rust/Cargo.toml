@@ -15,15 +15,15 @@ path = "src/lib.rs"
 
 
 [dependencies]
-openssl = { version = "0.10.64", features = ["vendored"] }
+openssl = { version = "0.10.68", features = ["vendored"] }
 serde = { version = "1.0.197", features = ["derive"] }
 serde_json = "1.0.122"
-reqwest = { version = "0.12.2", features = ["json"] }
-tokio = { version = "1.32.0", features = ["full"] }
-chrono = "0.4.37"
+reqwest = { version = "0.12.9", features = ["json"] }
+tokio = { version = "1.41.1", features = ["full"] }
+chrono = "0.4.38"
 select = "0.6.0"
 vader_sentiment = "0.1.1"
-polars = { version = "0.41.3", default-features = false, features = ["lazy", "dtype-datetime", "rows", "fmt_no_tty"] }
+polars = { version = "0.44.2", default-features = false, features = ["lazy", "dtype-datetime", "rows", "fmt_no_tty"] }
 ta = "0.5.0"
 num-format = "0.4.4"
 smartcore = "0.3.2"
